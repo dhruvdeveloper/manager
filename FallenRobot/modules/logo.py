@@ -255,7 +255,7 @@ async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
         await event.reply(
-            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <ANONYMOUS>`"
+            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <AAKASH>`"
         )
         return
     pesan = await event.reply("**ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**")
@@ -288,13 +288,13 @@ async def lego(event):
         fname = "fallen.png"
         img.save(fname, "png")
         await telethn.send_file(
-            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ғᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ"
+            event.chat_id, file=fname, caption=f"ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 𝙒𝙄𝙇𝘿 𝙓 𝘽𝙊𝙏"
         )
         await pesan.delete()
         if os.path.exists(fname):
             os.remove(fname)
     except Exception as e:
-        await event.reply(f"ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @DevilsHeavenMF")
+        await event.reply(f"ғʟᴏᴏᴅᴡᴀɪᴛ ᴇʀʀᴏʀ, ʀᴇᴩᴏʀᴛ ᴛʜɪs ᴀᴛ @wildxrobot")
 
 
 __mod_name__ = "Lᴏɢᴏ​"
