@@ -3,7 +3,7 @@
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from main import SUDO_USERS
+from import SUDO_USERS
 from handlers.help import *
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["kickall", "banall"], [".", "!"]))
