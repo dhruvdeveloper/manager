@@ -8,7 +8,7 @@
 ## ㅤㅤㅤᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ​ 🚀
 ㅤㅤㅤᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ꜰᴀʟʟᴇɴ ʀᴏʙᴏᴛ​
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aakashxok/wildxbot">
-DEPLOY ON HEROKU ━━━━━━━━━━━━━━━━━━━━━━
+CLICK HERE TO DEPLOY ON HEROKU 
 
 ### ㅤㅤㅤㅤCREDITS 😘
 
