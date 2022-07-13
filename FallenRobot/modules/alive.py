@@ -7,7 +7,7 @@ from telegram import __version__ as telever
 from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
 from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatcher
 
 
 PHOTO = [
