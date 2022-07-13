@@ -3,10 +3,10 @@ from pyrogram import filters
 from aiohttp import ClientSession
 
 
-from TGN import pbot as app, BOT_ID
-from TGN.utils.errors import capture_err
-from TGN.utils.permissions import adminsOnly
-from TGN.ex_plugins.dbfunctions import (
+from FallenRobot import pbot as app, BOT_ID
+from FallenRobot.utils.errors import capture_err
+from FallenRobot.utils.permissions import adminsOnly
+from FallenRobot.ex_plugins.dbfunctions import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -16,7 +16,7 @@ from TGN.ex_plugins.dbfunctions import (
     karma_on,
     update_karma,
 )      
-from TGN.utils.filter_groups import karma_negative_group, karma_positive_group
+from FallenRobot.utils.filter_groups import karma_negative_group, karma_positive_group
 
 
 regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|kool|cool|good|ok|okk|ultrapro|👍)$"
