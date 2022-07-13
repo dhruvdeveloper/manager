@@ -31,5 +31,6 @@ async def awake(event):
     ran = random.choice(PHOTO)
     await tbot.send_file(event.chat_id, ran, caption=TEXT, buttons=BUTTON)
 
+__mod_name__ = "Aʟɪᴠᴇ"
 
-## Alive mod
+
