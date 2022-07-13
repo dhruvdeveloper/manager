@@ -87,16 +87,16 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🧐 ʜᴇʟᴘ & ᴄᴍᴅs​​​ 🧐", callback_data="help_back"),
+        InlineKeyboardButton(text="✘ 𝙃𝙀𝙇𝙋 & 𝘾𝙈𝙉𝘿𝙎 ✘", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="💞 ᴀʙᴏᴜᴛ ᴍᴇ​​ 💞", callback_data="fallen_"),
-        InlineKeyboardButton(text="🙄 ABOUT OWNER 🙄", url=f"https://t.me/about_aakash"),
+        InlineKeyboardButton(text="✘ 𝘼𝘽𝙊𝙐𝙏 𝙈𝙀 ✘", callback_data="fallen_"),
+        InlineKeyboardButton(text="✘ 𝘼𝘽𝙊𝙐𝙏 𝙊𝙒𝙉𝙀𝙍 ✘", url=f"https://t.me/about_aakash"),
     ],
     [
-        InlineKeyboardButton(text="💔 sᴜᴘᴘᴏʀᴛ 💔", url=f"https://t.me/wildxbotsupport"),
+        InlineKeyboardButton(text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=f"https://t.me/wildxbotsupport"),
         InlineKeyboardButton(
-            text="🍑 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🍑", url=f"https://t.me/aakashx0202"
+            text="✘ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ✘", url=f"https://t.me/aakashx0"
         ),
     ],
 ]
@@ -106,7 +106,7 @@ FallenRobot_IMG = "https://te.legra.ph/file/1c72ff8e12c0452bec608.jpg"
 HELP_STRINGS = f"""
 𝙒𝙄𝙇𝘿 𝙓 𝘽𝙊𝙏 *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @wildxbotsupport*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*"""
 
-DONATE_STRING = """[𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/aakashx0202)"""
+DONATE_STRING = """[𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/aakashx0)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -217,7 +217,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="𝙄 𝘼𝙈 𝘼𝙇𝙄𝙑𝙀 𝘽𝘼𝘽𝙔!\n<b>𝘿𝙄𝘿𝙉'𝙏 𝙎𝙇𝙀𝙋𝙏 𝙎𝙄𝙉𝘾𝙀​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -296,7 +296,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "» *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ​​* *{}* :\n".format(
+                "» *𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙁𝙊𝙍​​* *{}* :\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -375,7 +375,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/aakashx0202"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/aakashx0"
                         ),
                         InlineKeyboardButton(
                             text="about owner",
@@ -405,10 +405,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/aakashx0202"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/aakashx0"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/aakashxok"
+                            text="ɢɪᴛʜᴜʙ", url="https://github.com/teamwild"
                         ),
                     ],
                     [
@@ -735,7 +735,7 @@ def main():
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/36be820a8775f0bfc773e.jpg",
-                caption="WILD ✘ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ AAKASH 🥀",
+                caption="𝙒𝙄𝙇𝘿 ✘ 𝘽𝙊𝙏 𝙄𝙎 𝘼𝙇𝙄𝙑𝙀 !\n\n𝙈𝘼𝘿𝙀 𝘽𝙔 𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»",
             )
         except Unauthorized:
             LOGGER.warning(
