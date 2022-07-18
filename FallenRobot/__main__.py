@@ -95,9 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=f"https://t.me/wildxbotsupport"),
-        InlineKeyboardButton(
-            text="✘ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ✘", url=f"https://t.me/aakashx0"
-        ),
+        InlineKeyboardButton(text="✘ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ✘", url=f"https://t.me/aakashx0"),
     ],
 ]
 

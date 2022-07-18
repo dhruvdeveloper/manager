@@ -12,7 +12,7 @@ from FallenRobot import telethn as tbot, SUPPORT_CHAT, OWNER_USERNAME, dispatche
 
 PHOTO = [
     "https://telegra.ph/file/6a21ea6677342f43b363e.jpg",
-    ]
+]
 
 
 @register(pattern=("/alive"))
@@ -31,6 +31,5 @@ async def awake(event):
     ran = random.choice(PHOTO)
     await tbot.send_file(event.chat_id, ran, caption=TEXT, buttons=BUTTON)
 
+
 __mod_name__ = "Aʟɪᴠᴇ"
-
-
