@@ -95,7 +95,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="✘ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 ✘", url=f"https://t.me/wildxbotsupport"),
-        InlineKeyboardButton(text="✘ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ✘", url=f"https://t.me/aakashx0"),
+        InlineKeyboardButton(text="✘ 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ✘", url=f"https://t.me/xD_aakash"),
     ],
 ]
 
@@ -104,7 +104,7 @@ FallenRobot_IMG = "https://te.legra.ph/file/3e95fcf920f75c405fd2a.jpg"
 HELP_STRINGS = f"""
 𝙒𝙄𝙇𝘿 𝙓 𝘽𝙊𝙏 *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @wildxbotsupport*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*"""
 
-DONATE_STRING = """[𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/aakashx0)"""
+DONATE_STRING = """[𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/xD_aakash)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,7 +373,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/aakashx0"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/xD_aakash"
                         ),
                         InlineKeyboardButton(
                             text="about owner",
@@ -403,7 +403,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/aakashx0"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/xD_aakash"
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ", url="https://github.com/teamwild"
