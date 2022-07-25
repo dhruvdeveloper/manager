@@ -82,7 +82,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="✗ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ✗",
+            text="✗ 𝘼𝘿𝘿 𝙈𝙀 𝘽𝘼𝘽𝙔​ ✗",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
