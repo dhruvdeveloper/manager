@@ -56,7 +56,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "WILD ✘ ʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "𝙒𝙄𝙇𝘿 𝙓 𝙍𝙊𝘽𝙊𝙏 𝘾𝙃𝘼𝙏𝘽𝙊𝙏 𝘿𝙄𝙎𝘼𝘽𝙇𝙀𝘿 𝘽𝙔 {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -85,7 +85,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "𝙒𝙄𝙇𝘿 ✘ 𝙍𝙊𝘽𝙊𝙏 𝘾𝙃𝘼𝙏𝘽𝙊𝙏 𝙀𝙉𝘼𝘽𝙇𝙀𝘿 𝘽𝙔 {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
