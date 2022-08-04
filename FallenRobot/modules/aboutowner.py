@@ -13,8 +13,9 @@ async def lel(bot, message):
     await asyncio.sleep(1.5)
     return await message.reply_text(text=ran)
   
-  __mod_name__ = "OWNER"
-  __help__ = """
-     
-    ABOUT YOUR FATHER
-❍ /owner *:* ABOUT YOUR FATHER
+__mod_name__ = "OWNER"
+
+__help__ = """
+ABOUT OWNER .
+❍ /OWNER *:* ABOUT YOUR FATHER
+ """
