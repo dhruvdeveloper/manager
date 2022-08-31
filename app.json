@@ -1,13 +1,13 @@
 {
-      "name": "Fallen Robot",
+      "name": "Wildxbot",
       "description": "Telegram Group Management Bot.",
-      "logo": "https://telegra.ph/file/72e135da30a1a349f2844.jpg",
+      "logo": "",
       "keywords": [
          "telegram",
          "sexy",
          "group",
          "manager",
-         "Fallen"
+         "Wild"
       ],   
    "repository": "https://github.com/Teamwild/wildxbot",
    "addons": [
