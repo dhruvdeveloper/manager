@@ -15,4 +15,4 @@ CLICK HERE TO DEPLOY ON HEROKU
 🖤 AAKASH : ᴍᴇ ᴏɴ [ɢɪᴛʜᴜʙ💞](https://github.com/aakashxok)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ ᴍᴇ ᴏɴ [ᴛᴇʟᴇɢʀᴀᴍ💔](https://telegram.me/aakash0202)
 
 
-#KANG OF (FALLEN ROBOT)[T.ME/FALLENXROBOT
+#KANG OF [FALLEN ROBOT](T.ME/FALLENXROBOT) 
