@@ -19,9 +19,9 @@ from FallenRobot.helper_extra.dbfun import (
 from FallenRobot import arq
 
 regex_upvote = (
-    r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|thankyou|love|pro|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍)$"
+    r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|thankyou|love|pro|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|bc)$"
 )
-regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak)$"
+regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak|mc)$"
 
 
 karma_positive_group = 3
