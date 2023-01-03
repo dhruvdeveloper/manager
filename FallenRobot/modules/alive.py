@@ -17,15 +17,15 @@ PHOTO = [
 
 @register(pattern=("/alive"))
 async def awake(event):
-    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝙄 𝘼𝙈 𝙒𝙄𝙇𝘿 ✘ 𝘽𝙊𝙏**\n━━━━━━━━━━━━━━━━━━━\n\n"
-    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝘼𝘼𝙆𝘼𝙎𝙃«🇮🇳»](https://t.me/aakashok)** \n\n"
+    TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝙄 𝘼𝙈 {dispatcher.bot.first_name}**\n━━━━━━━━━━━━━━━━━━━\n\n"
+    TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝘼𝘼𝙆𝘼𝙎𝙃«🇮🇳»](https://t.me/notaakash)** \n\n"
     TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
     TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", f"https://t.me/wildxbot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/wildxbotsupport"),
+            Button.url("ʜᴇʟᴘ​", f"https://t.me/wildx_bot?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/gfc_support"),
         ]
     ]
     ran = random.choice(PHOTO)
