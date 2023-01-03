@@ -17,8 +17,8 @@ class Config(object):
     API_ID = 123456  # integer value, dont use ""
     API_HASH = "awoo"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1356469075  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "anonymous_was_bot"
+    OWNER_ID =   # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = ""
     SUPPORT_CHAT = "DevilsHeavenMF"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001686672798
@@ -56,7 +56,7 @@ class Config(object):
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
+    ALLOW_EXCL = True  # Allow ! My as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
