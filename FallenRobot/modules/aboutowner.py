@@ -4,7 +4,7 @@ from pyrogram import filters
 from FallenRobot import pbot as FallenRobot
 
 ABOUTOWNER_STRINGS = [
-    "MY OWNER IS @aakashok... to know MORE ABOUT HIM CHECK OUT @ABOUT_AAKASH"
+    "MY OWNER IS @NotAakash... to know MORE ABOUT HIM CHECK OUT @ABOUT_AAKASH"
 ]
 
 
