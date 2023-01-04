@@ -38,6 +38,7 @@ pykeyboard
 pynewtonmath
 pyrogram==2.0.93
 python-telegram-bot==12.8
+python_arq
 regex
 requests
 secureme
