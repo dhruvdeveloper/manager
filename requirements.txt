@@ -54,3 +54,4 @@ ujson
 wget
 wikipedia
 zalgo-text
+yt_dlp
