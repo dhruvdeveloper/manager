@@ -711,7 +711,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 
         query.message.edit_text(
 
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 𝙒𝙄𝙇𝘿 𝙓 𝘽𝙊𝙏*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://pornhub.com)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [WLD BOT SUPPORT](https://t.me/WILDXBOTSUPPORT) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/aakash0202)""",
+            text="""My Source Is Private :D""",
 
             parse_mode=ParseMode.MARKDOWN,
 
