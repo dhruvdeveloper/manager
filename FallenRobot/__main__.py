@@ -354,7 +354,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "fallen_":
         query.message.edit_text(
-            text=f""Hello dear , My name is {dispatcher.bot.first_name}. A Powerful Telegram Group Management Bot.\n My developer - @NotAakash\n\nIf you have any Question, You can join our support chat. \nMy developer will help you.",
+            text=f"Hello dear , My name is {dispatcher.bot.first_name}. A Powerful Telegram Group Management Bot.\n My developer - @NotAakash\n\nIf you have any Question, You can join our support chat. \nMy developer will help you.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
