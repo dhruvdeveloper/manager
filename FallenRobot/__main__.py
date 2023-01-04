@@ -703,7 +703,43 @@ def main():
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_"
     )
+def Source_about_callback(update: Update, context: CallbackContext):
 
+    query = update.callback_query
+
+    if query.data == "source_":
+
+        query.message.edit_text(
+
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 𝙒𝙄𝙇𝘿 𝙓 𝘽𝙊𝙏*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://pornhub.com)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [WLD BOT SUPPORT](https://t.me/WILDXBOTSUPPORT) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝘼𝘼𝙆𝘼𝙎𝙃 «🇮🇳»](https://t.me/aakash0202)""",
+
+            parse_mode=ParseMode.MARKDOWN,
+
+            disable_web_page_preview=True,
+
+            reply_markup=InlineKeyboardMarkup(
+
+                [[InlineKeyboardButton(text="◁", callback_data="source_back")]]
+
+            ),
+
+        )
+
+    elif query.data == "source_back":
+
+        query.message.edit_text(
+
+            PM_START_TEXT.format(dispatcher.bot.first_name),
+
+            reply_markup=InlineKeyboardMarkup(buttons),
+
+            parse_mode=ParseMode.MARKDOWN,
+
+            timeout=60,
+
+            disable_web_page_preview=False,
+
+        )
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
