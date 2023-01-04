@@ -7,7 +7,7 @@
 ━━━━━━━━━━━━━━━━━━━━━━
 ## ㅤㅤㅤᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ​ 🚀
 ㅤㅤㅤᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ꜰᴀʟʟᴇɴ ʀᴏʙᴏᴛ​
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/gfcop/manager">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/dhruvdeveloper/manager">
 CLICK HERE TO DEPLOY ON HEROKU 
 
 ### ㅤㅤㅤㅤCREDITS 😘
